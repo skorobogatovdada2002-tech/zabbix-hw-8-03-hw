@@ -30,3 +30,26 @@ systemctl enable zabbix-server zabbix-agent apache2
 ```
 Скриншот веб-интерфейса Zabbix
 ![Zabbix Dashboard](img/zabbix-dashboard.png)
+Задание 2. Установка Zabbix Agent на два хоста
+
+В рабочей инфраструктуре уже был развернут сервер Zabbix.
+Для выполнения задания были подключены два хоста с установленными Zabbix Agent.
+Установка агента (Windows)
+
+Один из агентов установлен на Windows-хосте.
+
+1)Скачан Zabbix Agent с официального сайта
+2)Распакован в каталог:
+C:\Program Files\Zabbix Agent\
+3)Отредактирован файл конфигурации:
+zabbix_agentd.conf
+Основные параметры:
+Server=10.20.50.129
+ServerActive=10.20.50.129
+Hostname=1C SQL Zup-Corp
+4)Установлен и запущен сервис Zabbix Agent:
+zabbix_agentd.exe --install
+zabbix_agentd.exe --start
+5)Проверка работы агента:
+Get-Service -Name "Zabbix Agent"
+Статус: Running
