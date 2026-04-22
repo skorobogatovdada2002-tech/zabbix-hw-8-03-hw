@@ -44,7 +44,7 @@ systemctl enable zabbix-server zabbix-agent apache2
 ```text
 C:\Program Files\Zabbix Agent\
 ```
-Отредактирован файл конфигурации:
+3.Отредактирован файл конфигурации:
 ```text
 zabbix_agentd.conf
 ```
@@ -54,3 +54,14 @@ Server=10.20.50.129
 ServerActive=10.20.50.129
 Hostname=1C SQL Zup-Corp / 1C SQL DocumCorp
 ```
+4.Установлен и запущен сервис Zabbix Agent:
+```text
+cd "C:\Program Files\Zabbix Agent"
+.\zabbix_agentd.exe --install
+.\zabbix_agentd.exe --start
+```
+5.Проверка работы агента:
+```text
+Get-Service -Name "Zabbix Agent"
+```
+Статус: Running
