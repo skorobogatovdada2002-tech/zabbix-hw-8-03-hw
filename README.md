@@ -20,7 +20,9 @@ zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u postgres p
 
 systemctl restart zabbix-server zabbix-agent apache2
 systemctl enable zabbix-server zabbix-agent apache2
-Скриншот веб-интерфейса Zabbix
+### Скриншот веб-интерфейса Zabbix
+
+![Zabbix Dashboard](img/zabbix-dashboard.png)
 
 
 
@@ -53,14 +55,21 @@ Get-Service -Name "Zabbix Agent"
 
 Статус: Running
 
-Скриншот Configuration → Hosts
+### Скриншот Configuration → Hosts
+
+![Hosts](img/hosts.png)
 
 
 
 
-Скриншот Monitoring → Latest data
+### Скриншот Monitoring → Latest data
+
+![Latest Data](img/latest-data.png)
 
 
 
 
-Скриншот лога Zabbix Agent
+
+### Скриншот лога Zabbix Agent
+
+![Agent Log](img/agent-log.png)
