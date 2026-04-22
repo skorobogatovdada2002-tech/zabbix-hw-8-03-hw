@@ -36,8 +36,7 @@ systemctl enable zabbix-server zabbix-agent apache2
 Для выполнения задания были подключены два хоста с установленными Zabbix Agent.
 
 ### Установка агента (Windows)
-
-Один из агентов установлен на Windows-хосте.
+Агенты установлены на Windows-хосте.
 
 1. Скачан Zabbix Agent с официального сайта  
 2. Распакован в каталог:
@@ -47,3 +46,9 @@ C:\Program Files\Zabbix Agent\
 ```
 Отредактирован файл конфигурации:
 zabbix_agentd.conf
+Основные параметры:
+```text
+Server=10.20.50.129
+ServerActive=10.20.50.129
+Hostname=1C SQL Zup-Corp
+```
