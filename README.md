@@ -52,7 +52,12 @@ zabbix_agentd.conf
 ```text
 Server=10.20.50.129
 ServerActive=10.20.50.129
-Hostname=1C SQL Zup-Corp / 1C SQL DocumCorp
+Hostname=1C SQL Zup-Corp
+```
+```text
+Server=10.20.50.129
+ServerActive=10.20.50.129
+Hostname=1C SQL DocumCorp
 ```
 4.Установлен и запущен сервис Zabbix Agent:
 ```text
