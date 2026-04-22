@@ -30,7 +30,7 @@ systemctl enable zabbix-server zabbix-agent apache2
 ```
 Скриншот веб-интерфейса Zabbix
 ![Zabbix Dashboard](img/zabbix-dashboard.png)
-Задание 2. Установка Zabbix Agent на два хоста
+##Задание 2. Установка Zabbix Agent на два хоста
 
 В рабочей инфраструктуре уже был развернут сервер Zabbix.
 Для выполнения задания были подключены два хоста с установленными Zabbix Agent.
