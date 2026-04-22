@@ -28,4 +28,5 @@ zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u postgres p
 systemctl restart zabbix-server zabbix-agent apache2
 systemctl enable zabbix-server zabbix-agent apache2
 ```
+Скриншот веб-интерфейса Zabbix
 ![Zabbix Dashboard](img/zabbix-dashboard.png)
