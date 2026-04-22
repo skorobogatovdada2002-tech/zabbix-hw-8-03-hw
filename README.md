@@ -65,5 +65,6 @@ cd "C:\Program Files\Zabbix Agent"
 Get-Service -Name "Zabbix Agent"
 ```
 Статус: Running
+```
 Скриншот хостов
-![Zabbix Dashboard](img/host.png)
+![Zabbix hosts](img/hosts.png)
