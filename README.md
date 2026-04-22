@@ -45,7 +45,9 @@ systemctl enable zabbix-server zabbix-agent apache2
 C:\Program Files\Zabbix Agent\
 ```
 Отредактирован файл конфигурации:
+```text
 zabbix_agentd.conf
+```
 Основные параметры:
 ```text
 Server=10.20.50.129
