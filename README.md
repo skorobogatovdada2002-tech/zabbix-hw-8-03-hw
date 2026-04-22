@@ -71,3 +71,6 @@ Get-Service -Name "Zabbix Agent"
 Скриншот служб
 ![Zabbix service](img/service1.png)
 ![Zabbix service](img/service2.png)
+Скриншот логов
+![Zabbix logs](img/logs01.png)
+![Zabbix logs](img/logs02.png)
