@@ -67,4 +67,4 @@ Get-Service -Name "Zabbix Agent"
 Статус: Running
 
 Скриншот хостов
-![Zabbix hosts](img/hosts.png)
+![Zabbix hosts](img/host.png)
