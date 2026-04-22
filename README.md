@@ -68,3 +68,6 @@ Get-Service -Name "Zabbix Agent"
 
 Скриншот хостов
 ![Zabbix hosts](img/host.png)
+Скриншот служб
+![Zabbix service](img/service1.png)
+![Zabbix service](img/service2.png)
