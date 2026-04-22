@@ -52,5 +52,5 @@ zabbix_agentd.conf
 ```text
 Server=10.20.50.129
 ServerActive=10.20.50.129
-Hostname=1C SQL Zup-Corp
+Hostname=1C SQL Zup-Corp / 1C SQL DocumCorp
 ```
